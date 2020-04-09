@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
       id: 'greet',
-      title: 'Say hi',
+      title: 'Show message!',
       contexts: ['page'],
       documentUrlPatterns: ['*://*.youtube.com/*'],
     });
